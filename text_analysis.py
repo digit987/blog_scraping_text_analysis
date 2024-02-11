@@ -40,7 +40,7 @@ def list_to_string(lst):
             list_to_string = list_to_string + " " + lst[i]
 '''
 
-#Function to Scrap Text using given URL
+#Function to Scrape Text using given URL
 def url_to_text(url):
     text_to_analyze = ""
     response = requests.get(url)
